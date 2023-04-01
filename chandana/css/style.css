@@ -40,27 +40,26 @@ body{
 }
 
 .main{
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem auto;
     
 
 }
+.main h2{
+    font-weight: bold;
+}
 
-.main h1{
+.main span{
     font-family: roboto;
-    margin: 1rem auto;
-    text-align: center;
-    background-image: url("../templates/images/red-tag1.png");
-    background-size: cover;
-    /* background-color: red; */
-
-}
-
-.sample{
-    border: 2px solid red;
-    height: 20vh;
-    background-image: url("../templates/images/1.jpg");
-    background-size: cover;
+    color: #FFFFE8;
+    padding: 0.6rem 1.6rem;
+    background: rgb(2, 172, 30);
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
     
 
 }
+
+
+
