@@ -17,12 +17,13 @@ body{
 
 .navbar ul{
     list-style-type: none;
-
+   
+    margin: auto 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: sans-serif;
-    width: 50%;
+    width: 40%;
     align-items: center;
 
 }
@@ -30,4 +31,36 @@ body{
 .navbar ul a{
     color: whitesmoke;
     text-decoration: none;
+}
+
+.navbar ul :hover{
+    color: #FFB100;
+    font-weight: bold;
+    
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.main h1{
+    font-family: roboto;
+    margin: 1rem auto;
+    text-align: center;
+    background-image: url("../templates/images/red-tag1.png");
+    background-size: cover;
+    /* background-color: red; */
+
+}
+
+.sample{
+    border: 2px solid red;
+    height: 20vh;
+    background-image: url("../templates/images/1.jpg");
+    background-size: cover;
+    
+
 }
