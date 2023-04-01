@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* color: red; */
+}
+.navbar{
+    /* border: 2px solid black; */
+    background-color: #AACB73;
+    color: #FFFFE8;
+    padding: 1.2rem;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: sans-serif;
+    width: 50%;
+    align-items: center;
+
+}
+
+.navbar ul a{
+    color: whitesmoke;
+    text-decoration: none;
+}
