@@ -142,4 +142,137 @@ body{
     border-radius: 10px;
 }
 
+.banner{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 10rem;
+    
+    
+}
+.banner img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 5px rgba(64, 67, 65, 0.477);
+}
 
+.wraperbanner{
+    /* border: 2px solid red; */
+    
+}
+
+.blog-card{
+
+    display: flex;
+    margin: 2rem;
+    border: 2px solid grey;
+    width: 40vw;
+    /* height: 35vh; */
+    border-radius: 5px;
+   
+}
+.blog-card div{
+    /* border: 2px solid green; */
+    margin: 0px 0.4rem 0px 0px;
+    width: 20vw;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.blog-card div img{
+    width: 100%;
+}
+.blog-card a{
+    text-decoration: none;
+    color: #010624;
+    font-family: roboto;
+    font-size: 1.2rem;
+    display: inline;
+    width: 50%;
+    text-align: center;
+    padding: 0.6rem 0.8rem;
+    outline: 2px solid #010624;
+    border-radius: 4px;
+
+}
+.blog-card a:hover{
+    color: white;
+    background-color: red;
+    outline: none;
+}
+
+.blog-wrapper-card{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px ;
+    background-color: rgba(200, 200, 200, 0.301);
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #f7f7f7;
+    /* border: 2px solid red; */
+    padding: 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+  }
+  
+
+  
+  footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: light;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #666;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  footer a:hover {
+    color: #1d1c1c;
+  }
+  
+  footer .category {
+    flex-basis: 20%;
+  }
+  
+  footer .quick-links {
+    flex-basis: 20%;
+  }
+  
+  footer .address {
+    flex-basis: 20%;
+  }
+  
+  footer .follow-us {
+    flex-basis: 20%;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
