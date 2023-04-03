@@ -279,25 +279,41 @@ footer {
 
   .hero{
     /* border: 2px solid red; */
-    padding: 20px 18rem;
-    /* margin: 2rem; */
+    padding: 2rem 10rem;
     font-family: sans-serif;
     font-size: 1.1rem;
-    color: white;
-    background-image: url("../templates/images/black-background.jpg");
-    /* background-position: center; */
-    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F1E9;
+    
+
   }
   .hero div{
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+    margin: 1rem;
+ 
   }
+.hero .side-img{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
 
-  .hero div img{
-    width: 40%;
-    border-radius: 100%;
-  }
+}
+
+.hero .side-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero .desc{
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+}
 
   .map{
     display: flex;
