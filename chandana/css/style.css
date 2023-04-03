@@ -172,6 +172,11 @@ body{
     border-radius: 5px;
    
 }
+.blog-card:hover{
+  border: 2px solid black;
+  box-shadow: 0px 5px 15px 5px rgba(64, 67, 65, 0.477);
+
+}
 .blog-card div{
     /* border: 2px solid green; */
     margin: 0px 0.4rem 0px 0px;
@@ -325,3 +330,22 @@ footer {
     width: 90vw;
     height: 70vh;
   }
+
+form{
+  /* border: 2px solid red; */
+  margin: 2rem 12rem;
+  padding: 0 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="submit"]{
+  /* border: 2px solid red; */
+  border: none;
+  color: white;
+  border-radius: 4px;
+  background: #002B5B;
+  margin: 1rem 21rem;
+  padding: 0.6rem 2rem;
+  
+}
