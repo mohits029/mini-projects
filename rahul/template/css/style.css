@@ -1,0 +1,181 @@
+nav{
+    
+    padding: 0 8rem;    
+    
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    padding: 2rem 8rem;
+    background-color: #E74646;
+    
+}
+
+.main .description{
+    font-family: roboto;
+    text-transform: uppercase;
+    font-size: 1.44rem;
+    letter-spacing: 6px;
+    /* border: 2px solid red; */
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    color:white;
+}
+.main .description input[type=button]{
+    background-color: #FFFFE8;
+    border: none;
+    width: 11rem;
+    padding: 0.4rem 1rem;
+    border-radius: 40px;
+    color: #009FBD;
+    
+
+}
+.main .picture{
+    /* border: 2px solid red; */
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+.main .picture img{
+    position: relative;
+    width: 80%;
+}
+
+
+.main .description .desc{
+    font-size: 1rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-family: sans-serif;
+
+   
+}
+
+.exprience{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 8rem;
+    
+}
+
+.exprience .exp-desc{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 2rem;
+    font-family: sans-serif;
+
+}
+
+.exprience .exp-pic{
+    width: 40vw;
+    display: flex;
+
+    
+}
+.exprience .exp-pic img{
+    width: 20vw;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 0px 5px 15px 5px rgba(25, 40, 55, 0.347);
+
+}
+.exprience .exp-pic .img1{
+    
+    position: relative;
+    top: 50px;
+    left: -80px;
+    
+}
+
+.popular-products{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    padding: 2rem 10rem;
+}
+
+.popular-products .card h5{
+    font-family: roboto;
+    letter-spacing: 1px;
+    color: green;
+}
+
+.popular-products .card .card-body img{
+    width: 30%;
+    position: relative;
+    left: 33%;
+}
+
+.popular-products .card:hover{
+    border: 1px solid #009FBD;
+    box-shadow: 0px 5px 15px 5px rgba(25, 40, 55, 0.347);
+}
+
+.check-menu{
+    /* border: 2px solid red;   */
+    display: flex;
+    justify-content: space-between;
+    /* height: 80vh; */
+}
+.check-menu .check-menu-description{
+    /* border: 2px solid black; */
+    padding: 0 2rem;
+    width: 40vw;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check-menu .check-menu-description button, .chef .chef-description button{
+    padding: 0.5rem 2.8rem;
+    font-family: roboto;
+    border: none;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-radius: 40px;
+}
+
+.check-menu .check-menu-img {
+    /* border: 2px solid red; */
+    width: 30vw;
+}
+.check-menu .check-menu-img img{
+    width: 100%;
+}
+
+.chef{
+    /* border: 2px solid red; */
+    padding: 0px 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chef .chef-description{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chef .chef-pic{
+    /* border: 2px solid black; */
+    width: 30vw;
+}
+
+.chef .chef-pic img{
+    width: 100%;
+}
