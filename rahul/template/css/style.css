@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav{
     
     padding: 0 8rem;    
@@ -127,6 +131,7 @@ nav{
     display: flex;
     justify-content: space-between;
     /* height: 80vh; */
+    background-color: rgb(187, 187, 187);
 }
 .check-menu .check-menu-description{
     /* border: 2px solid black; */
@@ -162,6 +167,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* background-color: gray; */
 }
 
 .chef .chef-description{
@@ -178,4 +184,56 @@ nav{
 
 .chef .chef-pic img{
     width: 100%;
+}
+
+footer{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #0B2447;
+   
+}
+
+footer .about{
+   
+    width: 20vw;
+    font-size: 1.3rem;
+    color: white;
+
+   
+}
+
+footer .about i{
+    font-size: 1.7rem;
+}
+footer .contact{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+footer .location{
+    padding-top: 2rem;
+}
+
+footer .about i:hover{
+    color: orange;
+    cursor: pointer;
+    font-size: 1.9rem;
+}
+
+footer .about h1, footer .contact h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copy{
+    text-align: center; 
+    background: #0B2447; 
+    color: white; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
 }

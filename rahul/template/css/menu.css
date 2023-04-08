@@ -1,0 +1,77 @@
+.offer-banner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-banner img{
+    width: 98%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.menu{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu img{
+    width: 70%;
+    padding: 1rem 0px;
+}
+
+.offer-of-the-week{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.food-card{
+
+    display: flex;
+    margin: 2rem;
+    border: 2px solid grey;
+    width: 40vw;
+    /* height: 35vh; */
+    border-radius: 5px;
+   
+}
+.food-card:hover{
+  border: 2px solid black;
+  box-shadow: 0px 5px 15px 5px rgba(64, 67, 65, 0.477);
+
+}
+.food-card div{
+    /* border: 2px solid green; */
+    margin: 0px 0.4rem 0px 0px;
+    width: 20vw;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.food-card div img{
+    width: 100%;
+}
+.food-card a{
+    text-decoration: none;
+    color: #010624;
+    font-family: roboto;
+    font-size: 1.2rem;
+    display: inline;
+    width: 50%;
+    text-align: center;
+    padding: 0.6rem 0.8rem;
+    outline: 2px solid #010624;
+    border-radius: 4px;
+
+}
+.food-card a:hover{
+    color: white;
+    background-color: red;
+    outline: none;
+}
