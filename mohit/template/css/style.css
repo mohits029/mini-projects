@@ -6,8 +6,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0px 8rem;
+    background-color: #F5F3C1;
     
 }
 
@@ -34,4 +35,37 @@ nav{
     text-decoration: none;
     list-style-type: none;
     color: #000;
+}
+
+
+.hero-section{
+    border: 2px solid red;
+}
+
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid gray;
+    padding: 2rem;
+    margin: 2rem 3rem;
+    border-radius: 15px;
+}
+
+.hero-section .hero-description{
+    width: 45%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.hero-section .hero-picture{
+    border: 2px solid red;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.hero-section .hero-picture img{
+    width: 70%;
 }
