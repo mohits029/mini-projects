@@ -360,3 +360,88 @@
 }
 
 
+
+/************************************** portfolio ********************************************/
+.portfolio h1{
+    text-align: center; 
+    color:orangered; 
+    font-family: 'roboto';
+    margin: 4rem 0px 2rem 0px;
+
+}
+
+.portfolio{
+    border: 1px solid red;
+}
+
+.blogs{
+    /* border: 2px solid red; */
+    margin: 0px 8rem; 
+    padding: 1rem 2rem;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.blogs .card{
+    border: 1.4px solid gray;
+    height: 55vh;
+    width: 22vw;
+}
+
+.blogs .card:hover{
+    border: 2px solid #002B5B;
+    box-shadow: 0px 5px 15px 5px rgba(25, 40, 55, 0.347);
+
+
+}
+
+.blogs .card .blog-img{
+    /* border: 2px solid yellow; */
+    height: 70%;
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+   
+    
+}
+
+/* .blogs .card .blog-img img{
+    width: 100%;
+   
+} */
+.blogs .card .text-field{
+    /* border: 2px solid yellow; */
+    height: 40%;
+    padding: 1.6rem 1rem;
+    font-family: 'roboto';
+}
+.blogs .card .text-field h3{
+    font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 1rem;
+}
+
+.blogs .card .text-field button{
+    border: none;
+    background: white;
+    outline: 1px solid #002B5B;
+    color: #002B5B;
+    border-radius: 4px;
+    margin: 0px 1rem 0px 0px;
+    padding: 0.3rem 1rem;
+    font-weight: bold;
+    position: relative;
+    bottom: -10px;
+    
+}
+
+.blogs .card .text-field button:hover{
+    outline: none;
+    color: white;
+    background: red;
+}
+
+
+
+
+  
