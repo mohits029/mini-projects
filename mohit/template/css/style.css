@@ -105,17 +105,35 @@
     border-radius: 10px;
     margin: 10px;
 }
+
+.work-and-projrcts{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    min-height: 310px;
+    background-color: #3f546b;
+    flex-direction: column;
+
+
+}
 .skill{
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #2B4865;
+}
+
+.color-code{
+    display: flex;
+    justify-content: space-around;
 }
 
 .skill h2{
     font-weight: 400;
     font-size: 18px;
     font-family: roboto;
+    color: white;
 
 }
 
@@ -188,3 +206,157 @@
     animation: django 1s linear forwards;
 
 }
+
+.work-and-projrcts .work-box{
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 95%;
+    width: 90%;
+    margin: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    border-radius: 0px  5px;
+}
+
+.work-box div{
+    width: 30px;
+    height: 0%;
+    transition: width 1s;
+    
+}
+.work-box div:hover{
+    width: 30%;
+    
+}
+
+
+.work-box div span{
+    display: inline-block;
+    position: relative;
+    right: 3px;
+    bottom: 19.6px;
+    font-family: roboto;
+    color: white;
+    
+}
+
+
+.html-bar{
+    background: #3C79F5;
+    animation: html-bar 2s linear forwards;
+    
+}
+.css-bar{
+    background: #FBC252;
+    animation: css-bar 2s linear forwards;
+    
+}
+.js-bar{
+    background: #FF731D;
+    animation: js-bar 2s linear forwards;
+    
+}
+.python-bar{
+    background: #002E94;
+    animation: python-bar 2s linear forwards;
+    
+}
+.django-bar{
+    background: #781C68;
+    animation: django-bar 2s linear forwards;
+    
+}
+
+.work-box div a, .work-box p{ 
+    display: none;
+  
+}
+
+.work-box div:hover a{
+     display: block;
+     text-decoration: none;
+     font-family: 'roboto';
+     color: white;
+     font-size: 1.2rem;
+     text-align: center;
+  
+}
+
+.work-box div:hover p{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+
+
+
+
+.color-code span{
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    
+}
+.color-code .html-bar-color-code span{
+    background: #3C79F5;
+}
+.color-code .css-bar-color-code span{
+    background: #FBC252;
+}
+.color-code .js-bar-color-code span{
+    background: #FF731D;
+}
+.color-code .python-bar-color-code span{
+    background: #002E94;
+}
+.color-code .django-bar-color-code span{
+    background: #781C68;
+}
+
+
+
+
+@media (max-width: 992px){
+    .skill, .work-and-projrcts{   
+        width: 86%;
+       
+    }
+
+}
+
+
+
+@keyframes html-bar{
+    100%{
+        height: 92%;
+    }
+}
+
+@keyframes css-bar{
+    100%{
+        height: 70%;
+    }
+}
+
+@keyframes js-bar{
+    100%{
+        height: 30%;
+    }
+}
+
+@keyframes python-bar{
+    100%{
+        height: 80%;
+    }
+}
+
+@keyframes django-bar{
+    100%{
+        height: 60%;
+    }
+}
+
+
