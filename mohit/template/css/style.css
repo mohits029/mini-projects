@@ -119,7 +119,7 @@
     display: flex;
     justify-content: center;
     min-height: 310px;
-    background-color: #3f546b;
+    background-color: #569DAA;
     flex-direction: column;
 
 
@@ -129,7 +129,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #2B4865;
+    background-color: #569DAA;
 }
 
 .color-code{
@@ -342,31 +342,31 @@
 
 @keyframes html-bar{
     100%{
-        height: 92%;
+        height: 60%;
     }
 }
 
 @keyframes css-bar{
     100%{
-        height: 70%;
+        height: 60%;
     }
 }
 
 @keyframes js-bar{
     100%{
-        height: 30%;
+        height: 20%;
     }
 }
 
 @keyframes python-bar{
     100%{
-        height: 80%;
+        height: 100%;
     }
 }
 
 @keyframes django-bar{
     100%{
-        height: 60%;
+        height: 20%;
     }
 }
 

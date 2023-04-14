@@ -1,0 +1,157 @@
+*{
+    /* font-size: 100%; */
+}
+
+.description-bar{
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: gray;
+    border-bottom: 1px solid gray;
+    
+}
+
+.overview, .share{
+    /* border: 2px solid red; */
+    margin: 1rem 4rem;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    
+}
+
+.description-bar ul li{
+    cursor: pointer;
+}
+.description-bar ul li:hover{
+    border-bottom: 2px solid green;
+    color: rgb(57, 57, 57);
+}
+
+
+.main-box{
+    border: 2px solid red;
+    margin: 4rem 15em;
+    display: flex;
+}
+
+.left-half{
+    width: 50vw;
+    border: 2px solid green;
+}
+.right-half{
+    width: 50vw;
+    border: 2px solid green;
+}
+
+.main-box h2{
+    /* width: 50%; */
+    padding: 1rem 5rem;
+    font-weight: bolder;
+    font-family: Helvetica, sans-serif;
+    font-size: 3.4rem;
+    border: 2px solid black;
+}
+
+.main-box .seller{
+    border: 2px solid red;
+    display: flex;
+    font-size: 2.4rem;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 5rem;
+}
+.main-box .seller h3{
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+
+.main-box .seller a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.main-box .seller img{
+    border: 1px solid gray;
+    border-radius: 50%;
+    
+}
+
+.product-img{
+    width: 30vw;
+    border: 2px solid red;
+    margin: 0px auto;
+}
+
+.product-img img{
+    width: 100%;
+}
+
+.desc-h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 4rem;
+}
+.about-gig p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 4rem;
+}
+
+.about-gig ul{
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding: 0px 4rem;
+    /* border: 2px solid red; */
+    
+}
+
+.about-seller{
+    border: 2px solid red;
+}
+
+.about-seller p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(89, 89, 89);
+}
+
+.seller-desc{
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.desc{
+    /* border: 2px solid red; */
+    width: 60%;
+}
+.desc button{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    outline: 1px solid darkblue;
+    border-radius: 5px;
+}
+.desc button:hover{
+    background: green;
+    color: white;
+}
+
+.seller-img{
+    width: 40%;
+    border: 2px solid red;
+}
+.seller-img img{
+    width: 100%;
+}
