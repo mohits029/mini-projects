@@ -25,6 +25,7 @@
 .nav-link{
     font-family: 'roboto';
     font-size: 1.6rem;
+    margin: 0px 4px;
     
 }
 
@@ -377,6 +378,7 @@
     color:orangered; 
     font-family: 'roboto';
     margin: 4rem 0px 2rem 0px;
+    font-size: 3.8rem;
 
 }
 
@@ -528,3 +530,162 @@
     
 }
   
+
+/* ***************************blog******************** */
+
+.blog{
+    /* border: 2px solid red; */
+}
+
+.blog-card{
+
+    display: flex;
+    margin: 2.8rem;
+    
+    border: 2px solid grey;
+    width: 40vw;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+.blog-card:hover{
+  border: 2px solid black;
+  box-shadow: 0px 5px 15px 5px rgba(64, 67, 65, 0.477);
+
+}
+.blog-card div{
+    /* border: 2px solid blue; */
+    margin: 0px 0.8rem 0px 0px;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.blog-card div img{
+    width: 100%;
+}
+
+.blog-card div h3{
+    color: green;
+    font-family: 'roboto';
+    font-size: 2.2rem;
+}
+
+.blog-card div p{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+
+
+.blog-card a{
+    text-decoration: none;
+    color: #010624;
+    font-family: roboto;
+    font-size: 1.6rem;
+    display: inline;
+    width: 50%;
+    text-align: center;
+    padding: 0.6rem 0.8rem;
+    outline: 2px solid #010624;
+    border-radius: 4px;
+
+}
+.blog-card a:hover{
+    color: white;
+    background-color: red;
+    outline: none;
+}
+
+.blog-wrapper-card{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px ;
+    background-color: rgba(200, 200, 200, 0.301);
+}
+
+@media (max-width: 1000px) {
+    .blog-card{
+        width: 75vw;
+        /* border: 2px solid red; */
+    
+    }
+}
+
+@media (max-width: 500px) {
+    .blog-card{
+        /* border: 2px solid blue; */
+        margin: 1rem 0.8rem;
+        width: 100%;
+        
+    
+    }
+    .blog-card div{
+        /* border: 2px solid blue; */
+        margin: 0px 0.8rem 0px 0px;
+        width: 90%;    
+    }
+}
+
+/* *************Footer********************** */
+
+/* Footer Styles */
+
+footer {
+    background-color: #f7f7f7;
+    /* border: 2px solid red; */
+    padding: 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+  }
+  
+  .category ul{
+    position: relative;
+    left: -15px;
+    top: -25px;
+  }
+
+  .category ul a{
+    font-size: 5rem;
+    margin: 0px 5px;
+  }
+
+  
+  footer h3 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: light;
+    font-weight: bold;
+  }
+  
+  footer li{
+    list-style: none;
+    /* border: 2px solid red; */
+    
+  }
+
+  footer a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: lighter;
+    color: black;
+    position: relative;
+    left: -10px;
+  }
+
+  /* footer a:hover{
+    left: 10px;
+    left: 0px;
+  } */
+
+
+  
+ 
