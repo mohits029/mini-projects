@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+
+    <style>
+       .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  height: 300px;
+  background-color: #ccc;
+  display: none;
+  padding: 10px;
+}
+
+.active {
+  display: block;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+
+
+
+    <!-- html code -->
+    <div class="container">
+        <div class="box active" id="box1">
+          <h2>Box 1</h2>
+          <p>Content for Box 1 goes here.</p>
+        </div>
+        <div class="box" id="box2">
+          <h2>Box 2</h2>
+          <p>Content for Box 2 goes here.</p>
+        </div>
+        <div class="box" id="box3">
+          <h2>Box 3</h2>
+          <p>Content for Box 3 goes here.</p>
+        </div>
+      </div>
+      
+      <div class="buttons">
+        <button class="active" onclick="showBox('box1')">Box 1</button>
+        <button onclick="showBox('box2')">Box 2</button>
+        <button onclick="showBox('box3')">Box 3</button>
+      </div>
+      
+    <!-- html code end -->
+
+
+
+
+    <script>
+        function showBox(id) {
+  // Hide all boxes
+  var boxes = document.getElementsByClassName('box');
+  for (var i = 0; i < boxes.length; i++) {
+    boxes[i].classList.remove('active');
+  }
+
+  // Show the selected box
+  var box = document.getElementById(id);
+  box.classList.add('active');
+
+  // Update active button
+  var buttons = document.getElementsByClassName('button');
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].classList.remove('active');
+  }
+  var activeButton = document.querySelector('button[data-id="' + id + '"]');
+  activeButton.classList.add('active');
+}
+
+// Set the first box as active by default
+document.getElementById('box1').classList.add('active');
+document.querySelector('button[data-id="box1"]').classList.add('active');
+
+    </script>
+
+
+
+</body>
+</html>

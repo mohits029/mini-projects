@@ -86,7 +86,7 @@
 }
 .main-box .seller img{
     border: 1px solid gray;
-    border-radius: 50%;
+    border-radius: 100%;
     
 }
 
@@ -290,3 +290,7 @@
     
   }
   
+
+.active {
+    display: block;
+  }
