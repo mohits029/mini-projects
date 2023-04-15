@@ -8,8 +8,8 @@
   <title>Mohit Sarkar</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="template/css/style.css">
-  <link rel="stylesheet" href="template/css/portfoliostyle.css">
+  <link rel="stylesheet" href="../template/css/style.css">
+  <link rel="stylesheet" href="../template/css/portfoliostyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
@@ -44,11 +44,11 @@
 
   <div class="description-bar" id="navbar">
     <ul class="overview">
-      <li>overview</li>
-      <li>Description</li>
-      <li>About the seller</li>
-      <li>Compare packages</li>
-      <li>FAQ</li>
+      <li><a href="#overview">overview</a></li>
+      <li><a href="#description">Description</a></li>
+      <li><a href="#about-seller">About the seller</a></li>
+      <li><a href="#comparesion">Compare packages</a></li>
+      <li><a href="#">FAQ</a></li>
     </ul>
     <ul class="share">
       <li><a href="#"> <i class="fa-solid fa-heart" style="font-size: 2.6rem; color: gray;"></i> </a></li>
@@ -58,11 +58,11 @@
 
 
 
-  <div class="main-box">
+  <div class="main-box" id="overview">
     <div class="left-half">
       <h2>I will design professional flyers for your business</h2>
       <div class="seller">
-        <img src="template/images/flyer/4.jpg" width="40px">
+        <img src="../template/images/sellerimage/mohiticon.jpg" width="40px">
         <h3>Mohit Sarkar</h3>
         <a href="#">mohitsarkar256@gmail.com</a>
       </div>
@@ -70,29 +70,34 @@
 
 
       <div class="product-img">
-        
+
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="template/images/flyer/1.jpg" class="d-block w-100" alt="...">
+              <img src="../template/images/flyer/1.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="template/images/flyer/2.jpg" class="d-block w-100" alt="...">
+              <img src="../template/images/flyer/2.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="template/images/flyer/3.jpg" class="d-block w-100" alt="...">
+              <img src="../template/images/flyer/3.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -100,7 +105,7 @@
 
       </div>
 
-      <div class="about-gig">
+      <div class="about-gig" id="description">
 
         <h3 class="desc-h2">About this gig</h3>
         <p>Hi, I'm a professional UI/UX Designer with +4 years of experience in App Design, and more than 8 years in
@@ -131,22 +136,24 @@
 
       </div>
 
-      <div class="about-seller">
+      <div class="about-seller" id="about-seller">
         <h3 class="desc-h2">About Seller</h3>
         <div class="seller-desc">
           <div class="seller-img">
-            <img src="template/images/webdesign/2.png">
+            <img src="../template/images/sellerimage/mohit1.jpg">
           </div>
           <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate natus sapiente omnis ut quisquam
+            <p>Hii this is <b style="font-size: 1.6rem;">Mohit Sarkar</b>, i am a computer science student and a professional graphic designer. With a keen
+              eye for aesthetics and a passion for technology. <br><br> <i style="font-size: 1.6rem;">Get ready to be amazed by the
+              creativity and innovation of this rising star in the world of design!</i>
             </p>
-            <button>Contact me</button>
+            <a href="mailto: mohitsarkar256@gmail.com"><button>Contact me</button></a>
           </div>
         </div>
 
       </div>
 
-      <div class="compare-package">
+      <div class="compare-package" id="comparesion">
         <h3 class="desc-h2">Compare packages</h3>
         <table class="table">
           <thead>
@@ -186,9 +193,9 @@
 
             <tr>
               <th scope="row">Delivery Time</th>
-              <td>500</td>
-              <td>800</td>
-              <td>1200</td>
+              <td>Rs. 500</td>
+              <td>Rs. 800</td>
+              <td>Rs. 1200</td>
             </tr>
 
             <tr>
@@ -214,7 +221,7 @@
         <div class="card-wraper">
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -222,7 +229,7 @@
           </div>
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -230,16 +237,7 @@
           </div>
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-
-          <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -248,7 +246,7 @@
 
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -257,7 +255,7 @@
 
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -266,7 +264,16 @@
 
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 20rem;">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -277,7 +284,7 @@
 
 
           <div class="card" style="width: 20rem;">
-            <img src="template/images/thumbnails/2.png" class="card-img-top" alt="...">
+            <img src="../template/images/thumbnails/2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Some quick example text to build on the card title of the card's content.</h5>
               <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -306,10 +313,11 @@
           <div class="price">
             <h2>Basic</h2>
             <h2><i class="fa-solid fa-indian-rupee-sign" style="font-size: 2rem;"></i> 800</h2>
-            
+
           </div>
           <div class="package-desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga deserunt mollitia, voluptates labore iure.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga deserunt mollitia, voluptates
+              labore iure.</p>
           </div>
           <ul>
             <li>2 Days Delivery, 2 Revesion</li>
@@ -318,7 +326,7 @@
             <li>File Ready for Print</li>
             <li>Source file</li>
           </ul>
-          
+
           <button>Continue</button>
         </div>
       </div>
@@ -386,17 +394,17 @@
 
 
   <script>
-  window.addEventListener('scroll',function(){
-    let navbar= document.getElementById("navbar");
+    window.addEventListener('scroll', function () {
+      let navbar = document.getElementById("navbar");
 
-    if(window.pageYOffset >=45.75){
-      navbar.classList.add('sticky');
-    }else{
-      navbar.classList.remove('sticky');
-    }
-  })
-   
-    </script>
+      if (window.pageYOffset >= 45.75) {
+        navbar.classList.add('sticky');
+      } else {
+        navbar.classList.remove('sticky');
+      }
+    })
+
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
