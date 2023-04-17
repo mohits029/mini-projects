@@ -688,4 +688,8 @@ footer {
 
 
   
- 
+ .feedback{
+    padding: 4rem 0px;
+    text-align: center;
+    background: rgba(164, 164, 164, 0.607);
+ }
