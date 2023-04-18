@@ -1,12 +1,7 @@
 *{
     /* font-size: 100%; */
 }
-/* .description-bar{
-    width: 100vw;
-    position: fixed;
-    
-    top: 0px;
-} */
+
 
 .description-bar{
     /* border: 2px solid pink; */
@@ -234,18 +229,24 @@
     justify-content: space-around;
 }
 .right-box .right-buttons button{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: bolder;
-    font-family: sans-serif;
-    padding: 1.8rem 4rem;
+    font-family: 'roboto';
+    padding: 1.4rem 4rem;
     margin-bottom: 4rem;
     border: none;
     outline: 1px solid green;
     border-radius: 5px;
+    
+
+}
+.active-buttons{
+    background-color: green;
+    color: white;
 }
 
 .right-box-desc{
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
 }
@@ -333,4 +334,8 @@
         margin: 1rem 1rem;
     }
         
+}
+
+.active-box{
+    display: flex;
 }
