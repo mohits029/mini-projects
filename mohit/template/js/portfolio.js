@@ -42,3 +42,14 @@ premium.addEventListener('click', function(){
   premium_box.classList.add("active-box");
 });
 
+
+const shareBtn = document.getElementById('share-btn');
+
+shareBtn.addEventListener('click', () => {
+  navigator.share({
+    title: document.title,
+    url: window.location.href
+  })
+  .then(() => console.log('Shared successfully'))
+  .catch(error => console.log('Error sharing:', error));
+});

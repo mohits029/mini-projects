@@ -262,6 +262,7 @@
 .right-box .right-box-desc ul{
     /* border: 2px solid red; */
     padding: 2rem 6rem;
+    font-weight: bolder;
 }
 
 .right-box .right-box-desc li{
